@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="snower"
+version="${file.jarVersion}"
+displayName="Snower Mod"
+displayURL="http://www.DannielWhatever.com"
+logoFile="mod-icon.png"
+authors="dannielwhatever"
+description='''
+<<Snower>> Un mod hecho para Gaspar :)
+
+Features:
+Drops super útiles al matar animalitos indefensos.
+El bloque de Snower uwu
+'''
+
+#optional
+[[dependencies.snower]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.snower]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
